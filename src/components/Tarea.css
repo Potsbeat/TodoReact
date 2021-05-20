@@ -1,0 +1,77 @@
+.tarea{
+    display: flex;
+    justify-content: space-between;
+    
+
+    border: 1px solid #707070;
+    border-radius: 6px;
+
+    transition: 0.3s;
+
+    margin-bottom: 0.4rem;
+}
+
+.tarea:hover{
+    cursor: pointer;
+    box-shadow: 0 0 4px gray;
+}
+
+.container{  
+    margin: auto;
+    width: 75%;
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+    
+        margin: auto;
+        width: 95%;
+    }
+
+}
+
+h3{
+    align-items: center;
+    font-weight: 400;
+    padding: 0.6rem 0.9rem;
+    font-size: medium;
+   
+    border-right: dotted 1px gray;
+
+    word-wrap: break-word;
+}
+
+.short{
+    width: 35%; 
+}
+
+.long{
+    width: 55%; 
+}
+
+.btn-fill {
+    margin: 0.2rem;
+
+    width: 10%;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    background-color: white;
+    transition: 0.3s;
+
+    font-size: medium;
+  
+}
+
+
+.btn-fill:hover {
+    background: #d60000;
+    cursor: pointer;
+    color: white;
+  }
+
+
+.done{
+    color: #b6b6b6;
+    font-style: italic;
+}
